@@ -5,7 +5,6 @@ class ItemService{
     let food = ProxyState.food
     food[num].quantity--
     ProxyState.money -= food[num].price
-    console.log(ProxyState.money)
     ProxyState.food = food
   }
 }
